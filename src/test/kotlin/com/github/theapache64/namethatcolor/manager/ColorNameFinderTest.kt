@@ -1,6 +1,6 @@
-package com.theapache64.ntc.manager
+package com.github.theapache64.namethatcolor.manager
 
-import com.theapache64.ntc.model.HexColor
+import com.github.theapache64.namethatcolor.model.HexColor
 import org.junit.Assert.assertEquals
 import org.junit.Test
 

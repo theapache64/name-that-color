@@ -1,4 +1,4 @@
-package com.theapache64.ntc.util
+package com.github.theapache64.namethatcolor.util
 
 val colorsMaterialNames = mapOf(
     "000000" to "black",

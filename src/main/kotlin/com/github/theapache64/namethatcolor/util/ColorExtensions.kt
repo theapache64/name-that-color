@@ -1,7 +1,7 @@
-package com.theapache64.ntc.util
+package com.github.theapache64.namethatcolor.util
 
-import com.theapache64.ntc.model.Hsl
-import com.theapache64.ntc.model.Rgb
+import com.github.theapache64.namethatcolor.model.Hsl
+import com.github.theapache64.namethatcolor.model.Rgb
 import kotlin.math.roundToInt
 
 const val ALPHA_SEPARATOR = "_alpha_"

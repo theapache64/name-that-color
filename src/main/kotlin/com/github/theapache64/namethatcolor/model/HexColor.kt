@@ -1,9 +1,9 @@
-package com.theapache64.ntc.model
+package com.github.theapache64.namethatcolor.model
 
-import com.theapache64.ntc.util.hsl
-import com.theapache64.ntc.util.rgb
-import com.theapache64.ntc.util.roundTo2Decimal
-import com.theapache64.ntc.util.roundTo2HexString
+import com.github.theapache64.namethatcolor.util.hsl
+import com.github.theapache64.namethatcolor.util.rgb
+import com.github.theapache64.namethatcolor.util.roundTo2Decimal
+import com.github.theapache64.namethatcolor.util.roundTo2HexString
 
 class HexColor(input: String) {
 

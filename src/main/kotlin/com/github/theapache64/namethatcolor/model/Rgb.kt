@@ -1,4 +1,4 @@
-package com.theapache64.ntc.model
+package com.github.theapache64.namethatcolor.model
 
 data class Rgb(val r: Int, val g: Int, val b: Int) {
 

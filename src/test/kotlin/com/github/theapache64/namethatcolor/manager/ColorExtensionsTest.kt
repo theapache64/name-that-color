@@ -1,9 +1,9 @@
-package com.theapache64.ntc.manager
+package com.github.theapache64.namethatcolor.manager
 
-import com.theapache64.ntc.model.Hsl
-import com.theapache64.ntc.model.Rgb
-import com.theapache64.ntc.util.hsl
-import com.theapache64.ntc.util.rgb
+import com.github.theapache64.namethatcolor.model.Hsl
+import com.github.theapache64.namethatcolor.model.Rgb
+import com.github.theapache64.namethatcolor.util.hsl
+import com.github.theapache64.namethatcolor.util.rgb
 import org.junit.Assert.assertEquals
 import org.junit.Test
 

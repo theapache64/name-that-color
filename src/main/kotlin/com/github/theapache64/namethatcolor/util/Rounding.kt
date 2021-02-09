@@ -1,4 +1,4 @@
-package com.theapache64.ntc.util
+package com.github.theapache64.namethatcolor.util
 
 import kotlin.math.roundToInt
 

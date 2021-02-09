@@ -1,12 +1,12 @@
-package com.theapache64.ntc.manager
+package com.github.theapache64.namethatcolor.manager
 
-import com.theapache64.ntc.exception.ColorNotFoundException
-import com.theapache64.ntc.model.Chroma
-import com.theapache64.ntc.model.HexColor
-import com.theapache64.ntc.util.colorsMaterialNames
-import com.theapache64.ntc.util.colorsNames
-import com.theapache64.ntc.util.hsl
-import com.theapache64.ntc.util.rgb
+import com.github.theapache64.namethatcolor.exception.ColorNotFoundException
+import com.github.theapache64.namethatcolor.model.Chroma
+import com.github.theapache64.namethatcolor.model.HexColor
+import com.github.theapache64.namethatcolor.util.colorsMaterialNames
+import com.github.theapache64.namethatcolor.util.colorsNames
+import com.github.theapache64.namethatcolor.util.hsl
+import com.github.theapache64.namethatcolor.util.rgb
 import kotlin.math.pow
 
 /**

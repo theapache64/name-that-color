@@ -1,6 +1,6 @@
-package com.theapache64.ntc.model
+package com.github.theapache64.namethatcolor.model
 
-import com.theapache64.ntc.util.toXmlName
+import com.github.theapache64.namethatcolor.util.toXmlName
 import org.junit.Assert.assertEquals
 import org.junit.Test
 
