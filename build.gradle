@@ -1,0 +1,17 @@
+plugins {
+    id 'org.jetbrains.kotlin.jvm' version '1.4.30'
+}
+
+group 'com.theapache64'
+version 'v1.0.0-alpha01'
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    implementation "org.jetbrains.kotlin:kotlin-stdlib"
+
+    // JUnit : JUnit is a unit testing framework for Java, created by Erich Gamma and Kent Beck.
+    testImplementation 'junit:junit:4.13.1'
+}
