@@ -1,6 +1,9 @@
 plugins {
     id 'org.jetbrains.kotlin.jvm' version '1.4.30'
 }
+apply plugin: 'maven'
+apply plugin: 'maven-publish'
+
 
 group 'com.theapache64'
 version 'v1.0.0-alpha01'
