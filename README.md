@@ -10,7 +10,6 @@
 
 > A library to name hex color codes
 
-
 ## 🦿 Prerequisites
 
 Add `jitpack` to your `repositories`
@@ -25,10 +24,16 @@ maven { url "https://jitpack.io" }
 implementation 'com.github.theapache64:name-that-color:<latest-version>'
 ```
 
-
 ## ⌨️ Usage
 
-See [tests](https://github.com/theapache64/name-that-color/tree/master/src/test/kotlin/com/github/theapache64/namethatcolor) to understand the usage
+```kotlin
+ColorNameFinder.findColor(HexColor("#000000")) // Black
+ColorNameFinder.findColor(HexColor("#4169e1")) // Royal Blue
+ColorNameFinder.findColor(HexColor("#2c4f03")) // Verdun Green
+ColorNameFinder.findColor(HexColor("#f00")) // Red
+```
+
+To see more usage, see [tests](src/test/kotlin/com/github/theapache64/namethatcolor)
 
 ## 🥼 Run tests
 
@@ -38,7 +43,8 @@ See [tests](https://github.com/theapache64/name-that-color/tree/master/src/test/
 
 ## 🤗 Credits
 
-- Thanks to [@galex](https://twitter.com/galex) for porting [chir.ag/name-that-color](https://chir.ag/projects/name-that-color/)'s JS library to Kotlin
+- Thanks to [@galex](https://twitter.com/galex) for
+  porting [chir.ag/name-that-color](https://chir.ag/projects/name-that-color/)'s JS library to Kotlin
 
 All credit goes to [chir.ag](http://chir.ag) and [galex](https://github.com/galex)
 
@@ -80,7 +86,6 @@ Give a ⭐️ if this project helped you!
 <a href="https://www.paypal.me/theapache64" target="_blank">
     <img src="https://www.paypalobjects.com/en_US/i/btn/btn_donateCC_LG.gif" alt="Donation" width="160">
 </a>
-
 
 ## 📝 License
 
